@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modern Landing Page Example">
+  <title>Brew Cafe</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="icons/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Dosis:wght@200..800&family=Lobster&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+      <nav class="navbar">
+        <a href="#" class="logo">
+          <img src="icons/logo.svg" alt="Brew Cafe Logo">
+        </a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#blends">Blends</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-content">
+          <h1>Welcome to Brew Cafe</h1>
+          <a href="#about" class="hero-btn">Discover Your Perfect Blend</a>
+        </div>
+      </div>
+  </header>
+
+  <main>
+    <section id="blends" class="blends">
+      <h2>Special Blends</h2>
+      <div class="grid">
+        <div>
+          <img src="assets/images/espresso.jpg" alt="Espresso Coffee Image">
+          <h3>Velvet Espresso</h3>
+          <p>A rich and bold blend with deep chocolate notes and a velvety crema. Perfect for those who love the classic espresso experience with a smooth finish.</p>
+        </div>
+        <div>
+          <img src="assets/images/caramel.jpg" alt="Caramel Coffee Image">
+          <h3>Golden Caramel Bliss</h3>
+          <p>A medium roast infused with subtle hints of caramel and toasted hazelnuts. This blend offers a creamy, balanced sweetness for a comforting pick-me-up.</p>
+        </div>
+        <div>
+          <img src="assets/images/citrus.jpg" alt="Citrus Coffee Image">
+          <h3>Citrus Sunrise</h3>
+          <p>A bright, fruity blend with notes of orange zest and a floral aroma. Ideal for adventurous coffee lovers seeking a refreshing and vibrant flavor profile.</p>
+        </div>
+      </div>
+      <a href="#contact" class="btn">Order A Custom Blend</a>
+    </section>
+
+    <section id="about" class="about-section">
+      <h1>Meet Brew Cafe</h1>
+      <p class="about-description">
+        At Brew Cafe, we redefine your coffee experience with expertly crafted blends. Whether you're a coffee connoisseur or just looking for a cozy spot, our unique offerings will brighten your day.
+      </p>
+      <div class="about-grid">
+        <div class="about-card">
+          <img src="assets/images/filter.jpg" alt="Freshly Brewed Coffee" width="400" height="300">
+          <h2>Freshly Brewed</h2>
+          <p>
+            Every cup of coffee is brewed to perfection using premium beans and the finest techniques to bring out the best flavor.
+          </p>
+        </div>
+        <div class="about-card">
+          <img src="assets/images/preparation.jpg" alt="Custom Coffee Blends" width="400" height="300">
+          <h2>Custom Blends</h2>
+          <p>
+            Create your own coffee blend tailored to your taste or try one of our expertly curated signature blends.
+          </p>
+        </div>
+        <div class="about-card">
+          <img src="assets/images/beans.jpg" alt="Sustainable Sourcing" width="400" height="300">
+          <h2>Sustainably Sourced</h2>
+          <p>
+            We source our beans responsibly to ensure the highest quality while supporting coffee-growing communities worldwide.
+          </p>
+        </div>
+        <div class="about-card">
+          <img src="assets/images/interior.jpg" alt="Relaxing Atmosphere" width="400" height="300">
+          <h2>Cozy Atmosphere</h2>
+          <p>
+            Enjoy your coffee in a warm and inviting environment designed to make you feel at home.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h1>Contact Us for a Custom Blend</h1>
+      <form class="contact-form">
+        <div class="form-group floating-label">
+          <input type="text" id="name" name="name" required>
+          <label for="name">Your Name</label>
+        </div>
+
+        <div class="form-group floating-label">
+          <input type="email" id="email" name="email" required>
+          <label for="email">Your Email</label>
+        </div>
+
+        <div class="form-group floating-label">
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <label for="message">Your Order</label>
+        </div>
+        <button type="submit" class="btn">Place Order</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+  <p>&copy; 2024 Brew Cafe. All rights reserved.</p>
+  <p>Designed by gesttaltt:</p>
+  <div class="social-media">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="www.linkedin.com/in/jonathan-verdun-557044315" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/gesttaltt" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
