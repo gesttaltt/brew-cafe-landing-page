@@ -257,7 +257,7 @@ body {
 input, textarea {
   width: 100%;
   padding: 1.5rem 0.75rem 0.5rem;
-  border: 2px solid #fff;
+  border: 2px solid #d1b376;
   border-radius: 8px;
   font-size: 1rem;
   background: transparent;
@@ -265,7 +265,7 @@ input, textarea {
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: #d1b376;
+  border-color: #fff;
 }
 
 textarea {
